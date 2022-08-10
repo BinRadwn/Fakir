@@ -1,0 +1,462 @@
+/* Start My Rulez */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 25px;
+}
+h2 {
+  color: #333;
+}
+
+.continer1 {
+  width: 70%;
+  margin: auto;
+}
+.continer2 {
+  width: 90%;
+  margin: auto;
+}
+.continer3 {
+  width: 55%;
+  margin: auto;
+  background-color: #f1f1f1;
+  padding: 50px;
+}
+.clr {
+  clear: both;
+}
+/* End My Rulez */
+
+/* Start Home */
+.Home {
+  background-image: url(../img/slider/slider-01.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+
+.Home-Nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+  z-index: 60;
+}
+.Home .Home-Nav .Logo {
+  float: left;
+  color: #ff305b;
+  width: 20%;
+  padding: 5px 0 0 8%;
+}
+.Home .Home-Nav span {
+  color: #ff305988;
+}
+.Home .Home-Nav ul {
+  float: right;
+  width: 50%;
+  list-style: none;
+  padding: 10px 0;
+}
+.Home .Home-Nav ul li {
+  float: left;
+}
+.Home .Home-Nav ul li a {
+  margin: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.Home .content-home {
+  text-align: center;
+}
+.Home .content-home h3 {
+  color: #fff;
+  font-size: 25px;
+  padding: 230px 0 10px;
+}
+.Home .content-home h1 {
+  color: #ff305b;
+  padding-top: 30px;
+  font-size: 61px;
+}
+.Home .content-home .p-2 {
+  color: #fff;
+  font-size: 25px;
+  padding-top: 30px;
+}
+/* End Home */
+
+/* Start About */
+.About {
+  margin: 50px;
+}
+.About .About-img {
+  float: left;
+  width: 38%;
+  position: relative;
+  overflow: hidden;
+}
+.About .About-img .img1 {
+  width: 100%;
+  padding-top: 20px;
+  border-top: #555555 solid 5px;
+  border-left: #555555 solid 5px;
+}
+.About .About-img .leyar-img {
+  background-color: rgba(0, 0, 0, 0.57);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: top 1.1s;
+}
+.About-img:hover .leyar-img {
+  top: 0;
+}
+.About .About-img .leyar-img ul li img {
+  position: relative;
+  top: 215px;
+  left: 100px;
+  padding: 5px;
+}
+.About .About-img .leyar-img ul {
+  list-style: none;
+  float: left;
+}
+
+.About .About-img .leyar-img ul li {
+  float: left;
+}
+
+.About .about-content {
+  float: left;
+  width: 62%;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.About .about-content .s1 {
+  color: #ff305b;
+}
+.About .about-content h2 {
+  padding-left: 50px;
+  font-size: 35px;
+}
+.About .about-content .p-1 {
+  padding: 20px 0 20px 50px;
+  color: #555555;
+  border-bottom: 1px dashed #999999;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+}
+
+.About .about-content2 ul {
+  list-style: none;
+  float: left;
+  padding: 10px 0 0 50px;
+}
+.about-content2 ul li {
+  float: left;
+  width: 49%;
+  color: #555555;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+.about-content2 ul li span {
+  color: black;
+}
+.about-content2 ul li a {
+  text-decoration: none;
+  color: #555555;
+}
+.About .about-content2 button {
+  margin-left: 50px;
+  padding: 10px 40px;
+  background-color: #ff305b;
+  color: #fff;
+  border: none;
+}
+/* End About */
+
+/* Start Services */
+
+.Services {
+  margin-top: 50px;
+  background-color: #f1f1f1;
+  padding: 50px;
+}
+.Services .top {
+  text-align: center;
+}
+.Services .top h2 {
+  text-align: center;
+  padding: 50px 0 10px;
+  font-size: 35px;
+}
+.Services .top img {
+  padding-bottom: 50px;
+}
+.Services .Services-content .info {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  padding: 25px;
+  text-align: center;
+}
+.Services .Services-content .info img {
+  transition: all 1s;
+}
+.Services .Services-content .info img,
+h2 {
+  padding: 5px;
+}
+.Services .Services-content .info img:hover {
+  transform: scale(1.2);
+}
+.Services .Services-content .info p {
+  padding: 5px;
+  color: #555555;
+}
+.Services .Services-content .info:hover {
+  background-color: #fff;
+}
+/* End Services */
+
+/* Start Portfolio */
+
+.Portfolio {
+  margin-top: 50px;
+}
+.Portfolio .top-portfolio {
+  text-align: center;
+}
+.Portfolio .top-portfolio h2 {
+  text-align: center;
+  padding: 50px 0 10px;
+  font-size: 35px;
+}
+.Portfolio .top-portfolio img {
+  padding-bottom: 20px;
+}
+
+.Portfolio .bottom-protfolio {
+  text-align: center;
+}
+.Portfolio .bottom-protfolio button {
+  padding: 10px;
+  border: none;
+  background: none;
+  background-color: rgba(128, 128, 128, 0.021);
+}
+.Portfolio .bottom-protfolio button span {
+  color: #ff305b;
+}
+.bottom-protfolio .protfolio-img {
+  padding: 50px;
+}
+.bottom-protfolio .content-img {
+  width: 33.333%;
+  float: left;
+  box-sizing: border-box;
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+}
+.Portfolio .protfolio-img .content-img .leyar {
+  background-color: rgba(0, 0, 0, 0.57);
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+}
+.Portfolio .protfolio-img .content-img:hover .leyar {
+  left: 0;
+}
+
+.bottom-protfolio .content-img img {
+  width: 100%;
+}
+.Portfolio .protfolio-info {
+  background-color: #f1f1f1;
+  margin-top: 50px;
+  padding: 30px;
+}
+.Portfolio .protfolio-info .content-info {
+  float: left;
+  text-align: center;
+  padding: 70px 0;
+  width: 25%;
+}
+/* End Portfolio */
+
+/* Start Testimonial */
+.Testimonial {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.Testimonial .top-Testimonial {
+  text-align: center;
+}
+.Testimonial .top-Testimonial h2 {
+  text-align: center;
+  padding: 50px 0 10px;
+  font-size: 35px;
+}
+.Testimonial .top-Testimonial img {
+  padding-bottom: 50px;
+}
+
+.Testimonial .bottom-Testimonial .Testimonial-img {
+  float: left;
+  width: 20%;
+}
+.Testimonial .bottom-Testimonial .Testimonial-img img {
+  width: 80%;
+  float: left;
+  border-radius: 50%;
+}
+
+.Testimonial .bottom-Testimonial .Testimonial-text {
+  float: right;
+  width: 80%;
+}
+.Testimonial .bottom-Testimonial .Testimonial-text h2 {
+  padding-bottom: 20px;
+}
+.Testimonial .bottom-Testimonial .Testimonial-text p {
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #555555;
+}
+
+/* End Testimonial */
+
+/* Start Blog */
+
+.Blog {
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: #f1f1f1;
+}
+.Blog .top-Blog {
+  text-align: center;
+}
+.Blog .top-Blog h2 {
+  text-align: center;
+  padding: 50px 0 10px;
+
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.Blog .bottom-Blog {
+  padding: 10px;
+}
+.Blog .bottom-Blog .Blog-content {
+  width: 33.333%;
+  float: left;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.ineer {
+  background-color: #fff;
+  padding-bottom: 20px;
+}
+.Blog .bottom-Blog .Blog-content img {
+  width: 100%;
+}
+.Blog .bottom-Blog .Blog-content h2,
+a {
+  padding: 10px 0 10 20px;
+  color: #333333;
+}
+.Blog .bottom-Blog .Blog-content p {
+  padding: 10px 0 10 20px;
+  color: #555555;
+  line-height: 1.6;
+}
+.Blog .bottom-Blog .Blog-content a {
+  text-decoration: none;
+  color: #333333;
+}
+.Blog .bottom-Blog .Blog-content a:hover {
+  color: #ff305b;
+}
+.Blog .bottom-Blog .Blog-content h3 a:hover {
+  color: #ff305b;
+}
+
+/* End Blog */
+
+/* Start Contact */
+.contact {
+  margin: 50;
+  padding-bottom: 50px;
+}
+.contact .top-contact {
+  text-align: center;
+}
+.contact .top-contact h2 {
+  text-align: center;
+  padding: 50px 0 10px;
+  font-size: 35px;
+}
+.contact .top-contact img {
+  padding-bottom: 50px;
+}
+.contact .form {
+  width: 100%;
+
+  padding: 10px;
+}
+
+.contact .form input {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+.contact .form .form-subject {
+  width: 100%;
+}
+.contact .form textarea {
+  width: 100%;
+  padding: 10px;
+  height: 90px;
+}
+.contact .form button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ff305b;
+  border: none;
+  color: #fff;
+}
+/* End Contact */
+
+/* Start Footer */
+.footer {
+  margin-top: 50px;
+  background-color: #333333;
+  padding: 40px 0;
+  text-align: center;
+}
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer ul li {
+  display: inline-block;
+}
+.footer p {
+  color: #fff;
+  margin: 20px;
+}
+.footer p span {
+  color: #ff305b;
+}
+/* End Footer */
